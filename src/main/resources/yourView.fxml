@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lbSubprograma" layoutX="14.0" layoutY="14.0" text="Subprograma" />
+      <Button fx:id="btnFinalizarHilo1" layoutX="253.0" layoutY="50.0" mnemonicParsing="false" onAction="#clckAccionBtn1" text="Finalizar Hilo 1" />
+      <Button fx:id="btnFinalizarHilo2" layoutX="253.0" layoutY="96.0" mnemonicParsing="false" onAction="#clckAccionBtn2" text="Finalizar Hilo 2" />
+      <Label fx:id="lbHilo1" layoutX="241.0" layoutY="142.0" prefHeight="48.0" prefWidth="119.0" text="Hilo 1 : 0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbHilo2" layoutX="241.0" layoutY="199.0" prefHeight="48.0" prefWidth="119.0" text="Hilo 2 : 0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbSubprograma2" layoutX="14.0" layoutY="269.0" text="Subprograma" />
+   </children>
+</AnchorPane>
